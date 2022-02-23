@@ -10,7 +10,7 @@ class PlusMinus
             int[] arr =  new int[n];
             String inputString = sc.nextLine();
             sc.close();
-            String[] strs = inputString.trim().split("\s+");
+            String[] strs = inputString.trim().split("\\s+");
             for(int i=0;i<n;i++)
               arr[i]= Integer.parseInt(strs[i]);
             int positiveCount = 0;
